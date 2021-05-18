@@ -35,15 +35,44 @@ nav li{
 }
 
 #showcase{
-    float: clear;
     background-image: url("Resources/img-mission-background.webp");
     height: 700px; 
     width: 1200px;
-    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align: center;
+    background-size: cover;
+}
+
+#showcaseBanner{
+    
+    width: 100%;
 }
 
 #monthlyTea img{
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+}
+
+#monthlyTea{
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    align: center;
+}
+
+.container{
+    display: flex;
+    width:1000px;
+    align-items: center;
+    flex-wrap: wrap;
+    align: center;
+}
+
+h2, h4, h5{
+    margin: 10px;
 }
