@@ -9,3 +9,41 @@
     opacity:0.9;
     text-align:center;  
 }
+
+body{
+    width:80%;
+    margin: auto;
+}
+
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo{
+    float: left;
+    height:50px;
+    margin: 10px;
+    
+}
+
+nav li{
+    float:right;
+    display: inline;
+    text-decoration: underline;
+    padding: 15px;
+}
+
+#showcase{
+    float: clear;
+    background-image: url("Resources/img-mission-background.webp");
+    height: 700px; 
+    width: 1200px;
+    margin: auto;
+}
+
+#monthlyTea img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
